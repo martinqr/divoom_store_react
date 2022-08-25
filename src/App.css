@@ -1,0 +1,25 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: auto;
+}
+
+.navbar-toggler {
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.navbar-toggler-icon {
+  width: 3em;
+  height: 3em;
+  background-image: url(./components/icons/menu.png);
+}
+
+.navbar-collapse {
+  justify-content: center;
+  text-align: center;
+}
