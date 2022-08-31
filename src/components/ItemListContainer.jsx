@@ -1,13 +1,15 @@
 import React from "react";
+import ItemCount from "./ItemCount";
 
-class ItemListContainer extends React.Component {
-  render() {
-    return (
-      <div className="container-fluid badge bg-dark text-wrap fs-1">
-        {this.props.title}
+const ItemListContainer = (props) => {
+  return (
+    <div className="container-fluid badge bg-dark text-wrap fs-1">
+      {props.title}
+      <div>
+        <ItemCount initial={1} stock={10} />
       </div>
-    );
-  }
-}
+    </div>
+  );
+};
 
 export default ItemListContainer;
