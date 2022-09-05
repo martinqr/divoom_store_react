@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="">
       <NavBar />
-      <ItemListContainer title="Divoom Speakers Store" />
+      <ItemListContainer />
     </div>
   );
 }

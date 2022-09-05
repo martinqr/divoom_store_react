@@ -4,7 +4,7 @@ import { useState } from "react";
 const ItemCount = ({ initial, setInitial, stock, onAdd }) => {
   [initial, setInitial] = useState(initial);
   return (
-    <div className="container-fluid badge bg-dark text-wrap fs-1">
+    <div>
       <h1>{initial}</h1>
       <div>
         <button
