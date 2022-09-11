@@ -2,14 +2,14 @@ import React from "react";
 
 const Item = ({ info }) => {
   return (
-    <a href=" " className="">
-      <img src={info.pictureUrl} alt="" />
-      <div>
-        <b>{info.title}</b>
-        <p>{info.description}</p>
-        <p>{info.price}</p>
+    <div className="card" style={{ width: "14rem" }}>
+      <img className="card-img-top" src= {info.pictureUrl} alt=" " />
+      <div className="card-body">
+        <p className="card-text">
+         <h5>{info.title}</h5>
+        </p>
       </div>
-    </a>
+    </div>
   );
 };
 
