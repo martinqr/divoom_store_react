@@ -5,7 +5,7 @@ import ItemList from "./ItemList";
 
 export const items = [
   {
-    id: 1,
+    id: "1",
     title: "Cute Speaker",
     description:
       "The most visually pleasing,funniest, feature pocked cute Blueetooth speaker you can get.Bright colors on the 16 x 16 pixel screen which adds to the theme of retro arcade style.",
@@ -14,7 +14,7 @@ export const items = [
       "https://martinqr.github.io/divoom_store/assets/img/320px/ditoo_cute_320.png",
   },
   {
-    id: 2,
+    id: "2",
     title: "Frog Speaker",
     description:
       "The most visually pleasing,funniest, feature pocked cute Blueetooth speaker you can get. Bright colors on the 16 x 16 pixel screen which adds to the theme of retro arcade style.",
@@ -23,7 +23,7 @@ export const items = [
       "https://martinqr.github.io/divoom_store/assets/img/320px/ditoo_frog_320.png",
   },
   {
-    id: 3,
+    id: "3",
     title: "Glasses Speaker ",
     description:
       "The most visually pleasing,funniest, feature pocked cute Blueetooth speaker you can get. Bright colors on the 16 x 16 pixel screen which adds to the theme of retro arcade style.",
