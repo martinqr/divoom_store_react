@@ -40,7 +40,7 @@ const ItemListContainer = () => {
     const getData = new Promise((resolve) => {
       setTimeout(() => {
         resolve(items);
-      }, 2000);
+      }, 100);
     });
 
     getData.then((res) => setData(res));
