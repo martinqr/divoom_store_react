@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import { useState } from "react";
 import ItemList from "./ItemList";
 
+
 export const items = [
   {
     id: "1",
@@ -45,6 +46,7 @@ const ItemListContainer = () => {
 
     getData.then((res) => setData(res));
   }, []);
+
 
   return (
     <div>
