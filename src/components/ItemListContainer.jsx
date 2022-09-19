@@ -10,7 +10,8 @@ export const items = [
     title: "Cute Speaker",
     description:
       "The most visually pleasing,funniest, feature pocked cute Blueetooth speaker you can get.Bright colors on the 16 x 16 pixel screen which adds to the theme of retro arcade style.",
-    price: 12 + " USD",
+    price: 12,
+    quantity: 0,
     pictureUrl:
       "https://martinqr.github.io/divoom_store/assets/img/320px/ditoo_cute_320.png",
   },
@@ -19,7 +20,8 @@ export const items = [
     title: "Frog Speaker",
     description:
       "The most visually pleasing,funniest, feature pocked cute Blueetooth speaker you can get. Bright colors on the 16 x 16 pixel screen which adds to the theme of retro arcade style.",
-    price: 12 + " USD",
+    price: 12,
+    quantity: 0,
     pictureUrl:
       "https://martinqr.github.io/divoom_store/assets/img/320px/ditoo_frog_320.png",
   },
@@ -28,7 +30,8 @@ export const items = [
     title: "Glasses Speaker ",
     description:
       "The most visually pleasing,funniest, feature pocked cute Blueetooth speaker you can get. Bright colors on the 16 x 16 pixel screen which adds to the theme of retro arcade style.",
-    price: 12 + " USD",
+    price: 12,
+    quantity: 0,
     pictureUrl:
       "https://martinqr.github.io/divoom_store/assets/img/320px/ditoo_glasses_320.png",
   },
