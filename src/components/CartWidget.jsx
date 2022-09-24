@@ -1,10 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import { useCartContext } from "../CartContext";
 
 const CartWidget = () => {
+  const { totalProducts } = useCartContext();
   return (
-    <a className="navbar-brand" href=" ">
+    <Link to="/cart" className="navbar-brand">
       <span class="material-symbols-outlined">shopping_cart</span>
-    </a>
+      <span>{totalProducts() || ''}</span>
+    </Link>
   );
 };
 

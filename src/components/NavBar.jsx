@@ -7,9 +7,9 @@ const NavBar = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-light">
       <div className="container-fluid">
-        <a className="navbar-brand" href=" ">
+        <Link to="/home" className="navbar-brand">
           <img src={logo} alt="" />
-        </a>
+        </Link>
         <CartWidget />
         <button
           className="navbar-toggler"
@@ -25,7 +25,7 @@ const NavBar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mb-2 mb-lg-0">
             <li className="nav-item">
-            <Link to="/" className="nav-link">
+              <Link to="/home" className="nav-link">
                 Home
               </Link>
             </li>
