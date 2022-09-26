@@ -16,12 +16,12 @@ const ItemDetail = ({detail}) => {
   }
 
   return (
-    <div className="card" style={{ width: "14rem" }}>
-      <img className="card-img-top" src={detail.pictureUrl} alt=" " />
+    <div className="cardContainer">
+      <img src={detail.pictureUrl} alt=" " />
       <div className="card-body">
         <h5 className="card-title">{detail.title}</h5>
         <p className="card-text">{detail.description}</p>
-        <h6>{detail.price}</h6>
+        <h6>Price: $ {detail.price}</h6>
         {
           goToCart
             ? <Link to= '/cart'>Terminar compra</Link>
