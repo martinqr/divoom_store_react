@@ -6,6 +6,7 @@ import ItemCart from "./ItemCart";
 export const Cart = () => {
   const { cart, totalPrice } = useCartContext();
 
+
   if (cart.length === 0) {
     return (
       <>
@@ -23,6 +24,7 @@ export const Cart = () => {
       <p>
         Total: {totalPrice()}
       </p>
+      <Link to="/checkout">Checkout</Link>
     </>
   );
 };

@@ -4,7 +4,6 @@ import { useState } from "react";
 import ItemList from "./ItemList";
 import {getFirestore, collection, getDocs } from 'firebase/firestore'
 
-
 const ItemListContainer = () => {
   const [data, setData] = useState([]);
 
@@ -17,7 +16,7 @@ const ItemListContainer = () => {
 
 
   return (
-    <div>
+    <div className="d-flex justify-content-center cardContainer">
       <ItemList data={data} />
     </div>
   );

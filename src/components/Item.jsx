@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 
 const Item = ({ info }) => {
   return (
-    <div className="cardContainer">
     <div className="card" style={{ width: "14rem" }}>
       <Link to={`/item/${info.id}`} className="nav-link">
         <img className="card-img-top" src={info.pictureUrl} alt=" " />
@@ -12,8 +11,6 @@ const Item = ({ info }) => {
           <h5>{info.title}</h5>
         </p>
     </div>
-    </div>
-
   );
 };
 
