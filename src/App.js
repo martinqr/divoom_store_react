@@ -7,13 +7,14 @@ import React from "react";
 import CartProvider from "./CartContext";
 import Cart from "./components/Cart";
 import Checkout from './components/Checkout';
+import Home from './components/Home'
 
 function App() {
   return (
       <CartProvider>
         <NavBar />
         <Routes>
-          <Route path="/" element={<ItemListContainer />} />
+          <Route path="/" element={<Home />} />
           <Route path="/speakers" element={<ItemListContainer />} />
           <Route path="/item/:id" element={<ItemDetailContainer />} />
           <Route path="/cart" element={<Cart />} />

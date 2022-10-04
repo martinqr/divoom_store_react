@@ -12,11 +12,15 @@ const Checkout = () => {
 
     if (orderId) {
         return (
-            <h1>
+            <h2>
                 Gracias por tu compra, te dejamos el número de seguimiento:{' '}
                 {orderId}
-                <Link to="/home">Volver a home</Link>
-            </h1>
+                <div>
+                    <button>
+                    <Link to="/">Volver a home</Link>
+                    </button>
+                </div>
+            </h2>
         );
     }
 

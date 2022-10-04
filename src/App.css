@@ -24,7 +24,17 @@ html{
   text-align: center;
 }
 
-.cardContainer > div {
+.cardContainer > div{
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.detailContainer > div{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   background-color: #f1f1f1;
   margin: 10px;
   padding: 20px;

@@ -16,9 +16,9 @@ const ItemDetail = ({detail}) => {
   }
 
   return (
-    <div className="cardContainer">
-      <img src={detail.pictureUrl} alt=" " />
-      <div className="card-body">
+    <div className="d-flex">
+      <img  style={{ width: "16rem" }} src={detail.pictureUrl} alt=" " />
+      <div className="">
         <h5 className="card-title">{detail.title}</h5>
         <p className="card-text">{detail.description}</p>
         <h6>Price: $ {detail.price}</h6>

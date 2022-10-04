@@ -18,7 +18,7 @@ const ItemDetailContainer = () => {
     }, [id]);
 
   return (
-    <div>
+    <div className="d-flex justify-items-center detailContainer">
       <ItemDetail detail={detail} />
     </div>
   );

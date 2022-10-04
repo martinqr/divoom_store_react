@@ -11,7 +11,9 @@ export const Cart = () => {
     return (
       <>
         <p>No hay elementos en el carrito</p>
-        <Link to="/home">Hacer Compras</Link>
+        <button>
+        <Link to="/speakers">Hacer Compras</Link>
+        </button>
       </>
     );
   }
@@ -24,7 +26,7 @@ export const Cart = () => {
       <p>
         Total: {totalPrice()}
       </p>
-      <Link to="/checkout">Checkout</Link>
+      <button><Link to="/checkout">Checkout</Link></button>
     </>
   );
 };
